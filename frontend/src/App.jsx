@@ -1,16 +1,11 @@
 import './App.css';
+import Layout from './layouts/Layout';
 
 
 
 
 function App() {
-  
-
-  return (
-    <>
-      <h1>React and Vite App Early Stage</h1>
-    </>
-  )
+  return <Layout />
 }
 
-export default App
+export default App;
