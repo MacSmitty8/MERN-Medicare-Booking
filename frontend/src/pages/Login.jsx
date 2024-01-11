@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Doctors = () => {
+const Login = () => {
   return (
     <div>
-      Doctors
+      Login
     </div>
   )
 }
 
-export default Doctors
+export default Login
+Login
