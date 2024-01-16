@@ -1,11 +1,17 @@
 import React from 'react'
-
+import logo from '../../assets/images/logo.png'
 const Header = () => {
-  return (
-    <div>
-      Header
+  return <header className='header flex items-center'>
+    <div className='container'>
+      <div className='flex items-center justify-between'>
+        {/* Logo Goes Here */}
+        <div>
+          <img src={logo} alt='' />
+        </div>
+      </div>
     </div>
-  )
+    </header>
+  
 }
 
 export default Header
