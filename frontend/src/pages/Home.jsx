@@ -12,7 +12,11 @@ const Home = () => {
               <div className='lg:w-[570px]'>
               <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]
               md:leading-[70px]'>We help patients live a healthy, longer life.</h1>
-              <p>Exercitation fugiat cillum sint consectetur ipsum ex aliquip non cupidatat magna quis. Velit enim esse est cillum Lorem voluptate aliquip mollit eu cillum. Adipisicing sit ut commodo esse. Aute qui id amet eiusmod aliqua duis sint.</p>
+              <p className='text_para'>Exercitation fugiat cillum sint consectetur ipsum ex aliquip non cupidatat magna quis. 
+              Velit enim esse est cillum Lorem voluptate aliquip mollit eu cillum. 
+              Adipisicing sit ut commodo esse. 
+              Aute qui id amet eiusmod aliqua duis sint.</p>
+              <button className='btn'>Request an Appointment</button>
               </div>
             </div>
 
