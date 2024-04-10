@@ -148,8 +148,21 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Services Section Starts Ends Here */}
+        {/* Services Section Ends Here */}
 
+
+        {/* Features Section Starts Here */}
+          <section>
+            <div className='container'>
+            <div className='flex items-center justify-between flex-col lg:flex-row'>
+              {/* Features Content */}
+              <div className='xl:w-[670px]'>
+                <h2 className='heading'>Get Virtual Treatment <br /> anytime.</h2>
+              </div>
+            </div>
+            </div>
+          </section>
+        {/* Features Section Ends Here */}
     </>
   </>
 }
