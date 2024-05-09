@@ -157,7 +157,16 @@ const Home = () => {
             <div className='flex items-center justify-between flex-col lg:flex-row'>
               {/* Features Content */}
               <div className='xl:w-[670px]'>
-                <h2 className='heading'>Get Virtual Treatment <br /> anytime.</h2>
+                <h2 className='heading'>
+                Get Virtual Treatment <br /> anytime.
+                </h2>
+                <ul className='pl-4'>
+                <li className='text_para'>1. Schedule the appointment directly</li>
+                <li className="text_para">2. Search for your physican here, and contact their office.</li>
+                <li className="text_para">3. View our physicians who are accepting new patients
+                use the online scheduling tool to select an appointment time.</li>
+                </ul>
+                <Link to='/'><button className='btn'>Learn More</button></Link>
               </div>
             </div>
             </div>
