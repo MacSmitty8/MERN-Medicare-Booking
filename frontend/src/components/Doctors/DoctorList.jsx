@@ -6,8 +6,8 @@ import DoctorCard from './DoctorCard'
 const DoctorList = () => {
   return (
  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 
- lg:gap-[30px] mt-[30px] lg:mt-[55px]'>{doctors.map((doctor, index)=> (
-    <DoctorCard key={index} doctors={doctors} />))}</div>
+ lg:gap-[30px] mt-[30px] lg:mt-[55px]'>{doctors.map(doctors=> (
+    <DoctorCard key={doctors.id} doctors={doctors} />))}</div>
   )
 }
 
