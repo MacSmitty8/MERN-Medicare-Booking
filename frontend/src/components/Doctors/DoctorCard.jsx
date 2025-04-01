@@ -35,9 +35,12 @@ const DoctorCard = ({ doctors }) => {
             </div>
             
             <div className='mt-[18px] lg:mt-5 flex items-center justify-between'>
-                <h3 className='text-[16px] leading-7 lg:text-[30px] font-semibold text-headingColor'>
-                + {totalPatients} patients</h3>
+            <div>
+                <h3 className='text-[16px] leading-7 lg:text-[18px] lg:leading-[30px] font-semibold text-headingColor'>
+                + {totalPatients} patients
+                </h3>
                 <p className='text-[14px] leading-6 font-[400] text-textColor'>At {hospital}</p>
+                </div>
             </div>
         </div>
     );
