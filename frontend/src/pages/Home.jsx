@@ -6,6 +6,7 @@ import icon01 from '../assets/images/icon01.png'
 import icon02 from '../assets/images/icon02.png'
 import icon03 from '../assets/images/icon03.png'
 import featureImage from '../assets/images/feature-img.png'
+import faqImg from '../assets/images/faq-img.png'
 import videoIcon from '../assets/images/video-icon.png'
 import avatarIcon from '../assets/images/avatar-icon.png'
 import {Link} from 'react-router-dom'
@@ -219,6 +220,15 @@ const Home = () => {
               </p>
             </div>
             <DoctorList />
+          </div>
+        </section>
+        {/* Doctor Section ends here. */}
+        {/* FAQ Section starts here. */}
+        <section>
+          <div className='container'>
+            <div className='flex justify-between-gap-[50px] lg:gap-0'>
+              <div className='w-1/2 hidden md:block'><img src={faqImg} alt=''></img></div>
+            </div>
           </div>
         </section>
     </>
